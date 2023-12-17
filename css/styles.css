@@ -6,6 +6,46 @@
 body{
     background-color: #000000;
 }
+
+
+
+.mobile__nav {
+    
+    display: none;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #171616;
+    position: absolute;
+    top: 60px;
+    right: 0; 
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+    gap: 10px;
+   
+}
+
+.mobile__nav a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border-bottom: 1px solid #777;
+    transition: background-color 0.3s;
+    
+}
+
+.mobiel__nav a:hover {
+    background-color: #777;
+}
+
+
+
+
+
+
+
+
 .header__nav{
     display: none;
 }
@@ -24,6 +64,15 @@ body{
     height: 40px;
     margin-left: 0;
 }
+.header__closed{
+    width: 60px;
+    height: 40px;
+    margin-left: 0;
+    position: absolute;
+    top: 16px;
+    right: 0;
+    display: none;
+} 
 .main__img{
     max-width: 100%;
 }
